@@ -1,0 +1,114 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #1B1924;
+    color: white;
+    
+}
+
+#logo-img
+{
+    height: 300px;
+    width: 300px;
+    margin: 0xp 0xp;
+}
+
+#title-el
+{
+    font-family: 'Josefin Sans';
+    color: white;
+}
+.main-div
+{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 20px;
+}
+
+#input-el
+{
+    width: 290px;
+    height: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color:#444059;
+    resize:none;
+    padding: 10px 0px 0px 10px;
+    margin: 3px 0px;
+    color:grey;
+    font-family: 'Inter', Times, serif, 'Arial Narrow', Arial, sans-serif
+}
+
+#publish-btn
+{
+    width: 300px;
+    padding: 15px;
+    border: none;
+    background-color: #FF7A35;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px; 
+
+    margin: 3px 0px
+}
+
+#list-el
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#endorsements-text
+{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.input-wrapper
+{
+    display:flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: start;
+}
+
+.input-wrapper input
+{
+    width: 145px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: none; 
+    margin: 5px;
+    background-color:#444059;
+    font-family: 'Inter';
+    font-size: 15px;
+    color:gray;
+}
+
+#list-el li
+{
+    width: 300px;
+    background-color: white;
+    color:black;
+    list-style-type: none;
+    margin: 5px 0px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+     font-family: 'Inter', Times, serif, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color: #1B1924;
+    font-weight: 100;
+}
